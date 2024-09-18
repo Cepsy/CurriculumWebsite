@@ -12,7 +12,7 @@
     />
     <!-- https://fonts.google.com/ -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-video-catalog.css" />
+    <link rel="stylesheet" href="css/maxstyleperso.css" />
   </head>
 
   <body>
@@ -55,6 +55,11 @@
                           <a class="nav-link tm-nav-link" href="cv.html">CV </a>
                         </li>
                         <li class="nav-item">
+                          <a class="nav-link tm-nav-link" href="projects.html"
+                            >Projets
+                          </a>
+                        </li>
+                        <li class="nav-item">
                           <a class="nav-link tm-nav-link" href="draves.html"
                             >Draves
                           </a>
@@ -66,26 +71,29 @@
               </div>
             </div>
           </div>
+          <div class="portrait">
+            <img class="circular--square" src="img/me/me_cropped.png" width="20%">
+          </div>
         </div>
 
         <div class="tm-welcome-container text-center text-white">
           <div class="tm-welcome-container-inner">
             <p class="tm-welcome-text mb-1 text-white">
-              <!-- Un jeu en production par Ceps -->
+               &#128075; SALUT
             </p>
             <!-- <p class="tm-welcome-text mb-5 text-white">
               This is a full-width video banner.
             </p> -->
           </div>
         </div>
-
+        
         <div id="tm-video-container">
-          <video autoplay muted loop id="tm-video">
-            <!-- <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> -->
-            <!-- <source src="video/field.mp4" type="video/mp4" /> -->
-          </video>
+          <!-- <video autoplay muted loop id="tm-video">
+            <source src="img/me/photoBackground.jpg" type="img/jpg" />
+          </video> -->
+          <img src="img/me/photoBackground.jpg" width="100%">
         </div>
-
+        
         <!-- <div id="tm-fixed-header-bg"></div> -->
       </div>
 
@@ -94,260 +102,58 @@
           <main>
             <div class="row">
               <div class="col-12">
-                <h2 class="tm-page-title mb-4">Informations</h2>
-                <!-- <div class="tm-categories-container mb-5">
-                  <h3 class="tm-text-primary tm-categories-text">
-                    Categories:
-                  </h3>
-                  <ul class="nav tm-category-list">
-                    <li class="nav-item tm-category-item">
-                      <a href="#" class="nav-link tm-category-link active"
-                        >All</a
-                      >
-                    </li>
-                    <li class="nav-item tm-category-item">
-                      <a href="#" class="nav-link tm-category-link"
-                        >Drone Shots</a
-                      >
-                    </li>
-                    <li class="nav-item tm-category-item">
-                      <a href="#" class="nav-link tm-category-link">Nature</a>
-                    </li>
-                    <li class="nav-item tm-category-item">
-                      <a href="#" class="nav-link tm-category-link">Actions</a>
-                    </li>
-                    <li class="nav-item tm-category-item">
-                      <a href="#" class="nav-link tm-category-link">Featured</a>
-                    </li>
-                  </ul>
-                </div> -->
+                <h2 class="tm-page-title mb-4">Liens</h2>
               </div>
             </div>
-
-            <div class="row tm-catalog-item-list">
-              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
+            <ul class="horizontal-list">
+              <li>
+                <a href="https://github.com/Cepsy" class="outerLink">
                   <img
-                    src="img/field/fieldfinal.gif"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
+                    src="img/icons/github.png"
+                    width="75"
+                    height="75"
+                    class="darkableImage"
+                    onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+                    onmouseover="this.style.opacity=0.6;this.filters.alpha.opacity=60"
                   />
-                  <a
-                    href="building.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Texturing du feuillage
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    <ul>
-                      <li>Création de mesh initiales à instancier</li>
-                      <li>Animation et texture dans les matériaux pour éviter trop de calculs</li>
-                      <li>...</li>
-                    </ul>
-                  </p>
-                </div>
-              </div> -->
-              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/max-graziano" class="outerLink">
                   <img
-                    src="img/ponade/ponade.gif"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
+                    src="img/icons/linkedin.png"
+                    width="75"
+                    height="75"
+                    class="darkableImage"
+                    onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+                    onmouseover="this.style.opacity=0.6;this.filters.alpha.opacity=60"
                   />
-                  <a
-                    href="building.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Explosif magique "Ponade"
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    <ul>
-                      <li>Création du mesh</li>
-                      <li>Equipable et lançable</li>
-                      <li>Animation dans matériau</li>
-                      <li>...</li>
-                    </ul>
-                  </p>
-                </div>
-              </div> -->
-              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/cepsy_x" class="outerLink">
                   <img
-                    src="img/shoot/shooting.gif"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
+                    src="img/icons/twitter.png"
+                    width="75"
+                    height="75"
+                    class="darkableImage"
+                    onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+                    onmouseover="this.style.opacity=0.6;this.filters.alpha.opacity=60"
                   />
-                  <a
-                    href="building.html"
-                    class="position-absolute tm-img-overlay"
-                  >
+                </a>
+                <li>
+                  <a href="https://www.instagram.com/ceps______/" class="outerLink">
+                    <img
+                      src="img/icons/instagram.png"
+                      width="75"
+                      height="75"
+                      class="darkableImage"
+                      onmouseout="this.style.opacity=1;this.filters.alpha.opacity=100"
+                      onmouseover="this.style.opacity=0.6;this.filters.alpha.opacity=60"
+                    />
                   </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Tir et physique ragdoll
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    "A venir"
-                  </p>
-                </div>
-              </div> -->
-              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
-                  <img
-                    src="img/pathfinding/pathfinding.png"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
-                  />
-                  <a
-                    href="video-page.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Pathfinding
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    A venir
-                  </p>
-                </div>
-              </div> -->
-              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
-                  <img
-                    src="img/tn-05.jpg"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
-                  />
-                  <a
-                    href="video-page.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                    <i class="fas fa-play tm-overlay-icon"></i>
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Praesent posuere rhoncus
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    Duis vulputate nisl metus, eget dapibus nunc ultricies id.
-                    Ut augue mauris, varius quis nulla non, sollicitudin
-                    consectetur nisl. Donec eget arcu placerat, ullamcorper.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
-                  <img
-                    src="img/tn-06.jpg"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
-                  />
-                  <a
-                    href="video-page.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                    <i class="fas fa-play tm-overlay-icon"></i>
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Turpis massa aliquam
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    Nunc neque risus, ultrices sed luctus at, iaculis at arcu.
-                    Pellentesque rutrum velit nec sapien ullamcorper ultrices.
-                    Vestibulum lectus risus, laoreet pretium ipsum
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
-                  <img
-                    src="img/tn-07.jpg"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
-                  />
-                  <a
-                    href="video-page.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                    <i class="fas fa-play tm-overlay-icon"></i>
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Class aptent taciti sociosqu
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus bibendum orci sit amet dignissim rhoncus.
-                    Pellentesque pretium faucibus vestibulum.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
-                  <img
-                    src="img/tn-08.jpg"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
-                  />
-                  <a
-                    href="video-page.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                    <i class="fas fa-play tm-overlay-icon"></i>
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Donec ac nisl ul elit
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    Suspendisse in odio congue, lobortis metus sed, venenatis
-                    nisl. In dapibus et massa feugiat facilisis. Maecenas
-                    venenatis aliquet nulla, a tincidunt erat suscipit eget.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
-                <div class="position-relative tm-thumbnail-container">
-                  <img
-                    src="img/tn-09.jpg"
-                    alt="Image"
-                    class="img-fluid tm-catalog-item-img"
-                  />
-                  <a
-                    href="video-page.html"
-                    class="position-absolute tm-img-overlay"
-                  >
-                    <i class="fas fa-play tm-overlay-icon"></i>
-                  </a>
-                </div>
-                <div class="p-4 tm-bg-gray tm-catalog-item-description">
-                  <h3 class="tm-text-primary mb-3 tm-catalog-item-title">
-                    Sed mattis nisi erat
-                  </h3>
-                  <p class="tm-catalog-item-text">
-                    Integer ultricies mi eu aliquet cursus. Nam sem leo,
-                    imperdiet non lacinia eget, volutpat ac massa. Donec mattis
-                    in velit quis commodo. Cras nec rutrum arcu.
-                  </p>
-                </div>
-              </div> -->
-            </div>
+                </li>
+              </li>
 
             <!-- Catalog Paging Buttons -->
           </main>
@@ -361,6 +167,14 @@
                 >
               </p>
             </div> -->
+            <!-- <a href="https://www.vecteezy.com/free-vector/twitter-icon"
+              >Twitter Icon Vectors by Vecteezy</a
+            > -->
+            <a
+              href="https://www.flaticon.com/packs/social-media-343?word=socials"
+              title="icons"
+              >Icons created by riajulislam - Flaticon</a
+            >
           </footer>
         </div>
       </div>

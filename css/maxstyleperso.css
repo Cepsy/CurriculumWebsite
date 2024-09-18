@@ -1,10 +1,47 @@
 /*
 
-TemplateMo 552 Video Catalog
+Based on 
 
 https://templatemo.com/tm-552-video-catalog
 
 */
+
+
+/* Style to create a horizontal list */
+ul.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+ul.horizontal-list li {
+    margin-right: 10px;
+}
+
+.outerLink 
+{
+    /* background-color:black;  */
+    display:block; 
+    opacity:1;
+    filter:alpha(opacity=100);
+    /* width:200px; */
+}
+
+.circular--square { border-radius: 50%; }
+
+.portrait{
+    z-index: 2;
+    margin-top: 100px;
+}
+
+img.darkableImage 
+{
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+
 
 html { scroll-behavior: smooth; overflow-x: hidden; }
 

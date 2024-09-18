@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Graiano Maxime - Draves</title>
+    <title>Graziano Maxime - A Propos</title>
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <!-- https://fontawesome.com/ -->
     <link
@@ -21,9 +21,6 @@
         <div class="potition-absolute tm-site-header">
           <div class="container-fluid position-relative">
             <div class="row">
-              <div id="tm-title-container">
-                <img src="img/DravesTitleWhite.png" width="550" height="200" />
-              </div>
               <div class="col-5 col-md-8 ml-auto mr-0">
                 <div class="tm-site-nav">
                   <nav
@@ -51,21 +48,21 @@
                       <ul class="navbar-nav text-uppercase">
                         <li class="nav-item">
                           <a class="nav-link tm-nav-link" href="index.html"
-                            >A Propos</a
+                            >A Propos<span class="sr-only">(current)</span></a
                           >
                         </li>
-                                                <li class="nav-item">
-                          <a class="nav-link tm-nav-link" href="cv.html"
-                            >CV
+                        <li class="nav-item">
+                          <a class="nav-link tm-nav-link" href="cv.html">CV </a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link tm-nav-link" href="projects.html"
+                            >Projets<span class="sr-only">(current)</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link tm-nav-link" href="projects.html">Projets </a>
-                        </li>
-                        <li class="nav-item active">
                           <a class="nav-link tm-nav-link" href="draves.html"
-                            >Draves <span class="sr-only">(current)</span></a
-                          >
+                            >Draves
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -79,7 +76,7 @@
         <div class="tm-welcome-container text-center text-white">
           <div class="tm-welcome-container-inner">
             <p class="tm-welcome-text mb-1 text-white">
-              Un jeu en production par Ceps
+              <!-- Un jeu en production par Ceps -->
             </p>
             <!-- <p class="tm-welcome-text mb-5 text-white">
               This is a full-width video banner.
@@ -89,7 +86,8 @@
 
         <div id="tm-video-container">
           <video autoplay muted loop id="tm-video">
-            <source src="video/field.mp4" type="video/mp4" />
+            <!-- <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> -->
+            <!-- <source src="video/field.mp4" type="video/mp4" /> -->
           </video>
         </div>
 
@@ -101,9 +99,7 @@
           <main>
             <div class="row">
               <div class="col-12">
-                <h2 class="tm-page-title mb-4">
-                  Dernières updates
-                </h2>
+                <h2 class="tm-page-title mb-4">Informations</h2>
                 <!-- <div class="tm-categories-container mb-5">
                   <h3 class="tm-text-primary tm-categories-text">
                     Categories:
@@ -134,7 +130,7 @@
             </div>
 
             <div class="row tm-catalog-item-list">
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                   <img
                     src="img/field/fieldfinal.gif"
@@ -145,7 +141,6 @@
                     href="building.html"
                     class="position-absolute tm-img-overlay"
                   >
-                    <!-- <i class="fas fa-play tm-overlay-icon"></i> -->
                   </a>
                 </div>
                 <div class="p-4 tm-bg-gray tm-catalog-item-description">
@@ -160,8 +155,8 @@
                     </ul>
                   </p>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+              </div> -->
+              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                   <img
                     src="img/ponade/ponade.gif"
@@ -187,8 +182,8 @@
                     </ul>
                   </p>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+              </div> -->
+              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                   <img
                     src="img/shoot/shooting.gif"
@@ -209,8 +204,8 @@
                     "A venir"
                   </p>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+              </div> -->
+              <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                   <img
                     src="img/pathfinding/pathfinding.png"
@@ -231,7 +226,7 @@
                     A venir
                   </p>
                 </div>
-              </div>
+              </div> -->
               <!-- <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                   <img
@@ -360,25 +355,6 @@
             </div>
 
             <!-- Catalog Paging Buttons -->
-            <div>
-              <ul class="nav tm-paging-links">
-                <li class="nav-item active">
-                  <a href="#" class="nav-link tm-paging-link">1</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a href="#" class="nav-link tm-paging-link">2</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link tm-paging-link">3</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link tm-paging-link">4</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link tm-paging-link">></a>
-                </li> -->
-              </ul>
-            </div>
           </main>
 
           <footer class="row pt-5">
@@ -392,7 +368,6 @@
             </div> -->
           </footer>
         </div>
-        <!-- tm-content-container -->
       </div>
     </div>
   </body>
